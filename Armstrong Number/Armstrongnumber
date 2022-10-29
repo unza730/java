@@ -1,0 +1,28 @@
+package firstprojectpracrice;
+import java.util.Scanner;
+public class ArmstrongNumber {
+public static void main(String args[]) {
+	int num, i, div, cube, sum=0, originalNumber;
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter For Armstrong:");
+num = sc.nextInt();
+originalNumber = num;
+
+while(originalNumber!=0) {
+	div = originalNumber%10;
+	System.out.println("Div"+ div);
+	cube = div*div*div;
+	System.out.println("Cube"+ cube);
+	sum =sum +cube;
+//	sum += Math.pow(div, 3);
+	System.out.println("Sum"+ sum);
+	originalNumber= originalNumber /10;
+	
+}
+if(num== sum) {
+System.out.println("Armstrong Number"+ sum);
+} else {
+	System.out.println("Not Armstrong Number"+ sum);
+}
+}
+}
