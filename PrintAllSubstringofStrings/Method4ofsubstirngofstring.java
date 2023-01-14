@@ -40,3 +40,16 @@ public class Method4ofsubstirngofstring {
 	}
 }
 
+// Output
+// a
+// ab
+// abc
+// abcd
+// b
+// bc
+// bcd
+// c
+// cd
+// d
+// Time complexity: O(N3), where N is the length of the input string
+// Auxiliary Space: O(1)
