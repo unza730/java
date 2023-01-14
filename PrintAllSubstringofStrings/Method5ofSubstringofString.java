@@ -28,3 +28,17 @@ public static void main(String[] args)
 
 // This code is contributed by gauravrajput1
 
+
+// Output
+// a
+// ab
+// abc
+// abcd
+// b
+// bc
+// bcd
+// c
+// cd
+// d
+// Time complexity: O(N2), where N is the length of the input string.
+// Auxiliary Space: O(N), where N is the length of the input string.
