@@ -28,3 +28,16 @@ public class Method2Ofsubstirngosstring {
 // This code is contributed by ASHISH KUMAR PATEL
 
 
+// Output
+// a
+// ab
+// abc
+// abcd
+// b
+// bc
+// bcd
+// c
+// cd
+// d
+// Time complexity: O( n3 )
+// Auxiliary Space: O(1)
