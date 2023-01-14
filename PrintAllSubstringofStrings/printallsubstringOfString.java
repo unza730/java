@@ -42,3 +42,10 @@ public class printallsubstringOfString {
     }
 }
 // This code is contributed by PrinciRaj1992
+
+// Time complexity: O( n3 )
+// Auxiliary Space: O(1)
+
+// Method 2 (Using substr() function): s.substr(i, len) prints substring of length ‘len’ starting from index i in string s.
+
+// Implementation:
