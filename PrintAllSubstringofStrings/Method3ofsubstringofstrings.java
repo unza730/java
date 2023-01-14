@@ -44,3 +44,21 @@ public static void main(String[] args)
 // This code is contributed by avanitrachhadiya2155
 
 
+// Output
+// G
+// Ge
+// Gee
+// Geek
+// Geeky
+// e
+// ee
+// eek
+// eeky
+// e
+// ek
+// eky
+// k
+// ky
+// y
+// Time complexity: O( n2 )
+// Auxiliary Space: O(n)
