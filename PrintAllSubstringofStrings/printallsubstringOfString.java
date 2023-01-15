@@ -36,7 +36,7 @@ public class printallsubstringOfString {
 
     // Driver program to test above function
     public static void main(String[] args) {
-        char str[] = { 'a', 'b', 'c' };
+        char str[] = { 'a', 'b', 'c','d' };
         subString(str, str.length);
 
     }
