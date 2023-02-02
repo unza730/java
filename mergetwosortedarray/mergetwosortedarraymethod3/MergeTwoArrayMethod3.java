@@ -14,21 +14,37 @@ public class MergeTwoArrayMethod3 {
 		// from the last element
 		for (int i = n - 1; i >= 0; i--) {
             var n_1 = n - 1;
-            System.out.println("n-1: " + n_1+ " "+ n);
+            System.out.println("n-1: " + n_1+ "  n:  "+ n);
             var arr122 = arr1[m-1];
-            System.out.println("arr1[m-1]:  "+ arr122+ " "+ m);
+            System.out.println("arr1[m-1]:  "+ arr122+ "  m  "+ m);
+			System.out.println("***************************************************");
 			/* Find the smallest element greater than
 			ar2[i]. Move all elements one position ahead
 			till the smallest greater element is not
 			found */
+			// in last variable we assign last element of arr1;
+			for (int k = 0 ; k < arr1.length ; k++){
+              System.out.print("arr1 values::  "+ arr1[k] + " , ");
+			}
 			int j, last = arr1[m - 1];
 			for (j = m - 2; j >= 0 && arr1[j] > arr2[i];
-				j--)
-                System.out.println("arr[j]  "+arr1[j] +" arr2[i]  "+ arr2[i]);
+				j--){
+				System.out.println("-------------------------------------------");
+                System.out.println("arr[j]  "+arr1[j] + " j: " + j +" arr2[i]  "+ arr2[i]+ "arr1[j+1]: "+ arr1[j+1]);
 				arr1[j + 1] = arr1[j];
-
+				System.out.println("__ ___ _____ _______ _______ _____");
+                System.out.println("arr[j]   "+arr1[j] + " arr1[i] " + arr1[i]+" i: " + i  + " j: " + j +" arr2[i]  "+ arr2[i]);
+				}
+				System.out.println("--------------- Second------------ arr1 values");
+				
+				for (int k = 0 ; k < arr1.length ; k++){
+						System.out.print("arr1 values::  "+ arr1[k] + " , ");
+				  }
 			// If there was a greater element
 			if (last > arr2[i]) {
+				System.out.println("------- if ast > arr2[i] running:: ------- ");
+				System.out.println("arr1[j + 1] " + arr1[j + 1] );
+				System.out.println("arr2[i] " + arr2[i] );
 				arr1[j + 1] = arr2[i];
 				arr2[i] = last;
 			}
