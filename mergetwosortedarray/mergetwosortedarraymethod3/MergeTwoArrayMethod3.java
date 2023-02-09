@@ -35,7 +35,7 @@ public class MergeTwoArrayMethod3 {
 				System.out.println("__ ___ _____ _______ _______ _____");
                 System.out.println("arr[j]   "+arr1[j] + " arr1[i] " + arr1[i]+" i: " + i  + " j: " + j +" arr2[i]  "+ arr2[i]);
 				}
-				System.out.println("--------------- Second------------ arr1 values");
+				System.out.println("--------------- Second----->>--------- arr1 values");
 				
 				for (int k = 0 ; k < arr1.length ; k++){
 						System.out.print("arr1 values::  "+ arr1[k] + " , ");
