@@ -43,7 +43,7 @@ public class MergeTwoArrayMethod3 {
 			// If there was a greater element
 			if (last > arr2[i]) {
 				System.out.println("------- if ast > arr2[i] running:: ----->>-->-->>> ");
-				System.out.println("arr1[j + 1] ---->>>---------->>" + arr1[j + 1] );
+				System.out.println("arr1[j + 1] ---->>>---------->>>>>" + arr1[j + 1] );
 				System.out.println("arr2[i] " + arr2[i] );
 				arr1[j + 1] = arr2[i];
 				arr2[i] = last;
