@@ -17,7 +17,7 @@ public class MergeTwoArrayMethod3 {
             System.out.println("n-1: " + n_1+ "  n:  "+ n);
             var arr122 = arr1[m-1];
             System.out.println("arr1[m-1]:  "+ arr122+ "  m  "+ m);
-			System.out.println("***************************************************");
+			System.out.println("*****************************************************");
 			/* Find the smallest element greater than
 			ar2[i]. Move all elements one position ahead
 			till the smallest greater element is not
