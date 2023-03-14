@@ -24,7 +24,7 @@ public class MergeTwoArrayMethod3 {
 			found */
 			// in last variable we assign last element of arr1;
 			for (int k = 0 ; k < arr1.length ; k++){
-              System.out.print("arr1 values::  "+ arr1[k] + " , ");
+              System.out.print("arr1 values::::  "+ arr1[k] + " , ");
 			}
 			int j, last = arr1[m - 1];
 			for (j = m - 2; j >= 0 && arr1[j] > arr2[i];
